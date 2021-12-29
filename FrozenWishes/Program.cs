@@ -40,7 +40,7 @@ namespace FrozenWishes
 
             foreach(Wish wishesFromList in frozenWishes)
             {
-                Console.WriteLine($"Name ---> {wishesFromList.Name}. Gift ---> {wishesFromList.Gift}");
+                Console.WriteLine($"{wishesFromList.Name} wants {wishesFromList.Gift}");
             }
 
         }
